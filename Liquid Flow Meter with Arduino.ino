@@ -1,5 +1,5 @@
+//Emag
 #include <LiquidCrystal_I2C.h>
-
 LiquidCrystal_I2C lcd(0x3F, 16, 2);
 volatile int NbTopsFan; //measuring the rising edges of the signal
 int Calc;
