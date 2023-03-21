@@ -1,6 +1,7 @@
 # Liquid Flow Meter with Arduino
 <h2>Description</h2>
-This code is for an Arduino-based liquid flow meter using a hall-effect sensor. The flow meter is designed to measure the rate of liquid flow and display it on a Liquid Crystal Display (LCD) in liters per hour. The flow meter has a setpoint feature that allows the user to set a desired flow rate, and the meter will turn a digital output on or off based on whether the measured flow rate is above or below the setpoint.
+This code is for an Arduino-based liquid flow meter using a hall-effect sensor. The flow meter is designed to measure the rate of liquid flow and display it on a Liquid Crystal Display (LCD) in liters per hour. The flow meter has a setpoint feature that allows the user to set a desired flow rate, and the meter will turn a digital output on or off based on whether the measured flow rate is above or below the setpoint.<br>
+<b>2023</b>
 <h2>Hardware Requirements</h2>
 
 - Arduino board<br>
@@ -23,4 +24,5 @@ This code is for an Arduino-based liquid flow meter using a hall-effect sensor. 
 <h2>Usage</h2>
 Connect the hardware components as described above and upload the code to the Arduino board. Adjust the setpoint value using the push buttons. The LED will turn on or off depending on whether the measured flow rate is above or below the setpoint, and the LCD display will show the current flow rate in liters per hour and the setpoint value.
 <h2>License</h2>
-This code is licensed under the MIT License. See the LICENSE file for details.
+
+This code is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
