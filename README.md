@@ -23,6 +23,14 @@ This code is for an Arduino-based liquid flow meter using a hall-effect sensor. 
 - The <b>'delay()'</b> function is used to wait for a short period between iterations of the <b>'loop()'</b> function.
 <h2>Usage</h2>
 Connect the hardware components as described above and upload the code to the Arduino board. Adjust the setpoint value using the push buttons. The LED will turn on or off depending on whether the measured flow rate is above or below the setpoint, and the LCD display will show the current flow rate in liters per hour and the setpoint value.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/77733903/226800543-61ceb1f3-acbc-4923-951a-6eef3c92322e.jpg" width="500">
+</p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/77733903/226800548-7f3613d3-3dd7-40c9-8a3b-49489d228c34.jpg" width="500">
+</p>
+
 <h2>License</h2>
 
 This code is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
